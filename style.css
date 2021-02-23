@@ -72,6 +72,53 @@ img {
   clear: both;
 }
 
+/* MEDIA QUERY TABLET 768px */
+@media screen and (max-width: 768px) {
+  
+  /* RESET */
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+
+  /* Blocco Lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin-top: 30px;
+  }
+
+  /* Blocco Steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    margin-top: 30px;
+  }
+
+  /* Blocco Perchè */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 30px;
+  }
+
+  hr {
+    margin-top: 20px;
+  }
+
+  /* COMMON */
+  img {
+    height: 100px;
+  }
+
+}
+/* FINE MEDIA QUERY TABLET 768px */
+
 
 /* MEDIA QUERY RESPONSIVE 420px */
 @media screen and (max-width: 419px) {
@@ -135,3 +182,5 @@ img {
 
 }
 /* FINE MEDIA QUERY RESPONSIVE 420px */
+
+
